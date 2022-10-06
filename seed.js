@@ -1,10 +1,9 @@
 require('dotenv').config();
-
 require('./config/database');
 
 // const Asana = require('./models/asana')
 
-// const data = require('./data')
+const data = require('./data')
 
 // const p1 = Asana.deleteMany({})
 // Promise.all([p1])

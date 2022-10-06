@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017/flights')
+mongoose.connect(process.env.DATABASE_URL);
 
 //shortcut to mongoose.connection object
 const db = mongoose.connection
