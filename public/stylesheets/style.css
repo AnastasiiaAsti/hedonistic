@@ -527,8 +527,7 @@ a:hover {
 	color: rgba(255,255,255,1);
 	overflow: hidden; 
 	cursor: pointer;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding: 5px;
 	display: inline-block;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 

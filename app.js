@@ -14,6 +14,7 @@ const veggiesRouter = require('./routes/veggies');
 const grandmasRouter = require('./routes/grandmas');
 const soupsRouter = require('./routes/soups');
 const tapasRouter = require('./routes/tapas');
+const ayurvedasRouter = require('./routes/ayurvedas');
 
 var app = express();
 
@@ -34,6 +35,7 @@ app.use('/veggies', veggiesRouter);
 app.use('/grandmas', grandmasRouter);
 app.use('/soups', soupsRouter);
 app.use('/tapas', tapasRouter);
+app.use('/ayurvedas', ayurvedasRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
