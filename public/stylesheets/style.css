@@ -886,17 +886,13 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 .case-study-wrapper .case-study-name a {
 	color: #fff;
-	float: right;
 	display: inline-block;
 	padding: 0;
 	margin: 0;
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
 	line-height: 28px;
 	font-weight: 500;
 	height: 28px;
-	font-style: italic;
 	letter-spacing: 2px;
 	padding-right: 35px;
 	vertical-align: top;
@@ -940,7 +936,6 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 .case-study-wrapper .case-study-name span:before {
 	position: absolute;
-	content: '';
 	bottom: 0;
 	left: 0;
 	width: 0;
