@@ -12,6 +12,8 @@ var usersRouter = require('./routes/users');
 const cocktailsRouter = require('./routes/cocktails');
 const veggiesRouter = require('./routes/veggies');
 const grandmasRouter = require('./routes/grandmas');
+const soupsRouter = require('./routes/soups');
+const tapasRouter = require('./routes/tapas');
 
 var app = express();
 
@@ -27,9 +29,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/cocktails', cocktailsRouter)
-app.use('/veggies', veggiesRouter)
-app.use('/grandmas', grandmasRouter)
+app.use('/cocktails', cocktailsRouter);
+app.use('/veggies', veggiesRouter);
+app.use('/grandmas', grandmasRouter);
+app.use('/soups', soupsRouter);
+app.use('/tapas', tapasRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
