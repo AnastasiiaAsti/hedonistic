@@ -47,7 +47,6 @@ const veggiesSchema = new Schema({
     fullRecipe: {
         type: String,
     }
-
 })
 
 module.exports = mongoose.model('Veggie', veggiesSchema)
