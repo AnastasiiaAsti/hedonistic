@@ -20,15 +20,38 @@ const recipeSchema = new Schema({
         type: String,
         required: true
     },
-    time: {
+    ingredients: [{
+        type: String,
+        required: true
+    }],
+    preparation: {
         type: String,
         required: true
     },
-    portion: {
+    stepOne: {
         type: String,
         required: true
     },
-    ingredients: 
+    stepTwo: {
+        type: String,
+        required: true
+    },
+    stepThree: {
+        type: String,
+        required: true
+    },
+    stepFour: {
+        type: String,
+        required: true
+    },
+    stepFive: {
+        type: String,
+        required: true
+    },
+    fullRecipe: {
+        type: String,
+    }
+
 })
 
 module.exports = mongoose.model('Recipe', recipeSchema)
