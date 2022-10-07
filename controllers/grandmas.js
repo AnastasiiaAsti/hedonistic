@@ -1,8 +1,11 @@
+const Grandma = require('../models/grandma')
+
 module.exports = {
     index
 }
 
 function index(req, res) {
-
-    res.render('grandmas/index')
+    Grandma.find({}, function (err, grandmas) {
+        res.render('grandmas/index', {grandmas})
+    })
 }

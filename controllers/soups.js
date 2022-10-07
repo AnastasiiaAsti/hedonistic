@@ -1,8 +1,11 @@
+const Soup = require('../models/soup')
+
 module.exports = {
     index
 }
 
 function index(req, res) {
-
-    res.render('soups/index')
+    Soup.find({}, function (err, soups) {
+        res.render('soups/index', {soups})
+    })
 }

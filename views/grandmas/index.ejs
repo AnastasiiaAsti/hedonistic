@@ -29,69 +29,16 @@
         </div>
 
         <div id="projects-grid">
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-1"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box photo">
-                    <img src="images/cocktails/drink1.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-2"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box motion">
-                    <img src="images/cocktails/drink2.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-3"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box branding">
-                    <img src="images/cocktails/drink3.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-4"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box photo">
-                    <img src="images/cocktails/drink4.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-1"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box motion">
-                    <img src="images/cocktails/drink1.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-2"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box branding">
-                    <img src="images/cocktails/drink2.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-3"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box photo">
-                    <img src="images/cocktails/drink3.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-4"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box motion">
-                    <img src="images/cocktails/drink4.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
-            <a href="" class="cursor-link animsition-link tipped" data-title="drink-1"
-                data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
-                <div class="portfolio-box photo">
-                    <img src="images/cocktails/drink1.jpg" alt="">
-                    <div class="portfolio-mask"></div>
-                </div>
-            </a>
+            <% grandmas.forEach(function(g) { %>
+                <a href="/grandmas/<%= g._id %>" class="cursor-link animsition-link tipped" data-title="<%= g.label %>"
+                    data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
+                    <div class="portfolio-box photo">
+                        <img src="<%= g.photo %>" alt="">
+                        <div class="portfolio-mask"></div>
+                    </div>
+                </a>
+                <% }) %>
+
         </div>
     </div>
     <%- include('../partials/footer') %>
