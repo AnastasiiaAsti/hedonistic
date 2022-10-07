@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
 
-const recipeSchema = new Schema({
+const tapasSchema = new Schema({
     photo: [
         {
             type: String,
@@ -24,10 +24,6 @@ const recipeSchema = new Schema({
         type: String,
         required: true
     }],
-    preparation: {
-        type: String,
-        required: true
-    },
     stepOne: {
         type: String,
         required: true
@@ -54,4 +50,4 @@ const recipeSchema = new Schema({
 
 })
 
-module.exports = mongoose.model('Recipe', recipeSchema)
+module.exports = mongoose.model('Tapa', tapasSchema)

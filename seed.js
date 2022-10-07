@@ -1,16 +1,16 @@
 require('dotenv').config();
 require('./config/database');
 
-// const Asana = require('./models/asana')
+const Tapa = require('./models/tapa')
 
 const data = require('./data')
 
-// const p1 = Asana.deleteMany({})
-// Promise.all([p1])
-// .then(function(result) {
-//     console.log(result)
-//     return Promise.all([
-//         Asana.create(data.asanas)
-//     ])
-// })
-// .then(process.exit)
+const p1 = Tapa.deleteMany({})
+Promise.all([p1])
+.then(function(result) {
+    console.log(result)
+    return Promise.all([
+        Tapa.create(data.tapas)
+    ])
+})
+.then(process.exit)
