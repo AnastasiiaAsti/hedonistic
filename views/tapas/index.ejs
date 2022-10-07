@@ -28,7 +28,7 @@
 
         <div id="projects-grid">
             <% tapas.forEach(function(t) { %>
-                <a href="" class="cursor-link animsition-link tipped" data-title="<%= t.label %>"
+                <a href="/tapas/<%= t._id %>" class="cursor-link animsition-link tipped" data-title="<%= t.label %>"
                     data-tipper-options='{"direction":"top","follow":"true","margin":30}'>
                     <div class="portfolio-box photo">
                         <img src="<%= t.photo %>" alt="">

@@ -24,28 +24,9 @@ const cocktailsSchema = new Schema({
         type: String,
         required: true
     }],
-    stepOne: {
+    recipe: {
         type: String,
         required: true
-    },
-    stepTwo: {
-        type: String,
-        required: true
-    },
-    stepThree: {
-        type: String,
-        required: true
-    },
-    stepFour: {
-        type: String,
-        required: true
-    },
-    stepFive: {
-        type: String,
-        required: true
-    },
-    fullRecipe: {
-        type: String,
     }
 
 })

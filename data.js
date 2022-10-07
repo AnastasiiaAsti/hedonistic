@@ -110,3 +110,25 @@ exports.tapas = [
     // },
 
 ]
+
+exports.veggies = [
+    {
+        photo: 'https://cdn.loveandlemons.com/wp-content/uploads/2018/09/vegan-pizza.jpg',
+        label:'Vegan Pizza',
+        ingredients:['1 small head broccoli, florets chopped into small pieces, top of stalk diced (1/2 cup)', '1/3 cup halved cherry tomatoes', 'kernels from 1 ear fresh corn', '1/4 cup coarsely chopped red onion', '1/2 jalapeño, thinly sliced', '4 oil-packed sun-dried tomatoes, diced',  'extra-virgin olive oil, for drizzling and brushing', '1 (16-ounce) ball of pizza dough', '1/2 cup fresh basil leaves', '2 tablespoons fresh thyme leaves', 'pinches of red pepper flakes', 'sea salt and freshly ground black pepper', 'ceshew cream'],
+        stepOne: 'Preheat the oven to 450°F.',
+        stepTwo: 'In a medium bowl, combine the broccoli, tomatoes, corn, onion, jalapeño, and sun-dried tomatoes and drizzle with olive oil and pinches of salt and pepper. Toss to coat and taste. The vegetables should be well-seasoned and well-coated with the olive oil so that the vegetables are flavorful throughout the pizza.',
+        stepThree: 'Stretch the pizza dough onto a 14-inch pizza pan. Brush the outer edges of the dough lightly with olive oil and spoon a few scoops of cashew cream onto the center of the dough, just enough to spread it into a thin layer. Distribute the vegetables onto the dough.',
+        stepFour: 'Bake 15 minutes, or until the crust is golden, cooked through, and the broccoli is tender and roasted. Remove from the oven and drizzle generously with the cashew cream (if your cashew cream is too thick to drizzle, stir in a little water). Top with the fresh basil, fresh thyme, and pinches of red pepper flakes.',
+        stepFive: 'Enjoy',
+    },
+]
+
+exports.cocktails = [
+    {
+        photo:'https://www.eatthis.com/wp-content/uploads/sites/4/2020/08/horse-neck.jpg?quality=82&strip=all',
+        label:"The Horse's Neck",
+        ingredients:['2 oz High West Double Rye', '0.25 oz fresh ginger juice', '0.25 oz fresh-squeezed lemon juice', '2 oz light ginger beer', 'Lemon twist garnish'],
+        recipe: 'Fill an Old Fashioned glass with chip ice. Then pour ingredients into the glass and garnish with a lemon twist.'
+    }
+]
