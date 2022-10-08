@@ -2,6 +2,8 @@
 
 A responsive recipe app, browse through our collections of recipes that are our absolute favorites. 
 
+https://hedonistic-app.herokuapp.com/
+
 ----------------------------
 
 Tech Used:
