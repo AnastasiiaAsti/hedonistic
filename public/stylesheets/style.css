@@ -3454,6 +3454,6 @@ figure.youtube a img {
 /* CHECKBOX */
 
 input[type=checkbox]:checked + span {
-	color:#bf6729;
+	color: rgb(97, 93, 93);
 	text-decoration: line-through;
 }
