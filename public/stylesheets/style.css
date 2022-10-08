@@ -27,6 +27,15 @@ h6,
 	color: #fff;
 }
 
+ul {
+	list-style: none
+}
+
+#checkbox {
+	outline: none;
+	width: 1rem;
+}
+
 h1,
 .h1 {
 	font-size: 4rem;
@@ -3439,4 +3448,12 @@ figure.youtube a img {
 		font-size: 20px;
 		line-height: 20px;
 	}
+}
+
+
+/* CHECKBOX */
+
+input[type=checkbox]:checked + span {
+	color:#bf6729;
+	text-decoration: line-through;
 }
