@@ -20,6 +20,31 @@
         </div>
     </div>
 
+    <div class="section padding-top-bottom-big over-hide background-dark-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section clearfix"></div>
+                <div class="col-md-8 padding-top-bottom"
+                    data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                    <ul class="mb-0 pb-0 lead">
+                        <% cocktail.ingredients.forEach(function(v) { %>
+                            <li class="listEl"><input type="checkbox" id="cbox2" value="second_checkbox"> <span
+                                    for="cbox2">
+                                    <%= v %>
+                                </span>
+                            </li>
+                            <% }) %>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <p>
+                    <%= cocktail.recipe %>
+                </p>
+            </div>
+
+        </div>
 
 
-    <%- include('../partials/footer') %>
+
+        <%- include('../partials/footer') %>
