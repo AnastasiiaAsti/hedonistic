@@ -2,7 +2,9 @@
 
 Are you tired of scouring the internet for recipe ideas, only to end up with a cluttered collection of bookmarks and torn-out magazine pages? Look no further! Introducing Hedonistic, the ultimate recipe database app that brings a world of culinary delights right to your fingertips.
 
-https://hedonistic-app.herokuapp.com/
+Check it out <a href="https://hedonistic-app.herokuapp.com/">HERE</a>
+
+
 
 ----------------------------
 
